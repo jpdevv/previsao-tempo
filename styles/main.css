@@ -1,3 +1,84 @@
+@import url('../styles/style.css');
+
+body {
+    background-color: var(--FundoBody);
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.app {
+    display: flex;
+    gap: 10px;
+}
+
+/* Header */
+.pesquisa {
+    background-color: var(--FundoBoxs);
+    width: 380px;
+    height: 35px;
+    border-radius: 10px;
+    padding: 0;
+}
+
+/* Clima */
+.clima {
+    background-color: var(--FundoBoxs);
+    width: 640px;
+    height: 315px;
+    border-radius: 20px;
+}
+
+/* Destaques */
+.destaques {
+    background-color: var(--FundoBoxs);
+    width: 560px;
+    height: 340px;
+    border-radius: 20px;
+}
+
+/* Outros */
+.outros {
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    height: 285px;
+    gap: 10px;
+}
+
+/* Txts cidades */
+.txts {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Cidades */
+.cidades {
+    display: grid;
+    grid-template-rows: 127px 127px;
+    grid-template-columns: 275px 275px;
+    gap: 10px;
+}
+
+/* Cidade */
+.cidade {
+    background-color: var(--FundoBoxs);
+    border-radius: 20px;
+}
 
 @media screen and (max-width: 1070px) {
     
