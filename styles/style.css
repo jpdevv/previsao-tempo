@@ -300,22 +300,6 @@
     font-size: 12px;
 }
 
-.txt-h {
-    display: flex;
-    align-items: center;
-    margin: 10px 0 0 15px;
-}
-
-.txt-h h1 {
-    font-size: 12px;
-    font-weight: 300;
-    margin: 0 0 0 4px;
-}
-
-.txt-h i {
-    font-size: 12px;
-}
-
 .icon-h i {
     display: flex;
     align-items: center;
@@ -351,3 +335,73 @@
     font-weight: 300;
 }
 
+.txt-dest {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 0 15px;
+}
+
+.txt-dest h1 {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0 0 0 4px;
+}
+
+.txt-dest i {
+    font-size: 12px;
+}
+
+.valor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95px;
+}
+
+.valor h2 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.valor p {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.cidade {
+    display: flex;
+    gap: 40px;
+}
+
+.texto-cidade {
+    display: flex;
+    align-items: center;
+    width: 140px;
+}
+
+.txt-cidade {
+    width: 200px;
+}
+
+.txt-cidade h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 10px 0 0 20px;
+}
+
+.txt-cidade h2 {
+    font-size: 11px;
+    font-weight: 300;
+    margin: 0 0 0 10px;
+}
+
+.min-max {
+    font-size: 9px;
+    font-weight: 200;
+}
+
+.icone-cidade {
+    font-size: 50px;
+    margin: 40px 0 0 0;
+}
