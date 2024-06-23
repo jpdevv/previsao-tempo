@@ -14,6 +14,8 @@
     --sombras: #00000065;
     --bordasDias: #ffffff13;
     --sombraDias: #11ffc71c;
+    --sombraClimaAmanha: #2d748b;
+    --fundoRadialDestaques: #173d49;
     --fonte: "Montserrat", sans-serif;
 }
 
@@ -98,8 +100,8 @@
 }
 
 .txt-clim h1 {
-    font-size: 53px;
-    font-weight: 500;
+    font-size: 60px;
+    font-weight: 400;
     margin-top: 31px;
 }
 
@@ -176,6 +178,31 @@
     width: 420px;
     height: 90px;
     border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.clima-amanha .txt-amanha h2 {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.clima-amanha .txt-amanha p {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.clima-amanha h1 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.clima-amanha i {
+    font-size: 70px;
+    position: relative;
+    top: -20px;
+    text-shadow: 0 0 20px var(--sombraClimaAmanha);
 }
 
 .horarios {
@@ -234,11 +261,37 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: var(--fundoBoxesClaro);
     width: 45px;
     height: 90px;
     border-radius: 15px;
     gap: 10px;
     border: var(--bordasDias) solid 1px;
+}
+
+.a-boxs {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.boxs-destaques {
+    background-color: var(--FundoBoxs);
+    width: 215px;
+    height: 130px;
+    border-radius: 30px;
+}
+
+.destaques h1 {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-left: 16px;
+    margin-bottom: 9px;
 }
 

@@ -48,7 +48,7 @@ body {
 
 /* Destaques */
 .destaques {
-    background-color: var(--FundoBoxs);
+    background: radial-gradient(circle, var(--fundoRadialDestaques) 0%, var(--FundoBoxs) 100%);
     width: 500px;
     height: 320px;
     border-radius: 20px;
