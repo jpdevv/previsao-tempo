@@ -2,10 +2,18 @@
     --FundoBoxs: #1E1E1E;
     --FundoBody: #111015;
     --textos: #fff;
-    --bordas: #ffffff0a;
+    --bordas: #ffffff07;
     --corDestaque: #D8E9F9;
     --corEscura: #000;
     --fundoBoxesClaro: #2F2F2F;
+    --fundoBoxClaroA: #2f2f2f5e;
+    --fundoHorarios: #2d738b18;
+    --sombraHorarios: #00000034;
+    --fundoSemana: #2d738b31;
+    --corTextosClaros: #929292;
+    --sombras: #00000065;
+    --bordasDias: #ffffff13;
+    --sombraDias: #11ffc71c;
     --fonte: "Montserrat", sans-serif;
 }
 
@@ -130,4 +138,107 @@
     width: 40px;
     height: 30px;
     border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
 }
+
+.btn-sel:hover {
+    transform: scale(1.05);
+}
+
+.clima-horas {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.semana {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.d-txt h3 {
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+.dias-semana {
+    background: linear-gradient(45deg, transparent 0%, var(--fundoSemana) 50%, transparent 100%);
+    width: 420px;
+    height: 110px;
+    border-radius: 20px;
+}
+
+.clima-amanha {
+    background-color: var(--fundoBoxClaroA);
+    width: 420px;
+    height: 90px;
+    border-radius: 20px;
+}
+
+.horarios {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    background: linear-gradient(45deg, transparent 0%, var(--fundoHorarios) 50%, transparent 100%);
+    width: 145px;
+    height: 270px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px var(--sombraHorarios);
+}
+
+.horarios p {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--corTextosClaros);
+}
+
+.horarios h3 {
+    font-weight: 400;
+}
+
+.sol h3 {
+    font-size: 25px;
+}
+
+.duracao h3 {
+    font-size: 18px;
+}
+
+.hour {
+    margin-left: 12px
+}
+
+.dias-semana {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.sessao-semana h3 {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.sessao-semana p {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.sessao-semana {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--fundoBoxesClaro);
+    width: 45px;
+    height: 90px;
+    border-radius: 15px;
+    gap: 10px;
+    border: var(--bordasDias) solid 1px;
+}
+

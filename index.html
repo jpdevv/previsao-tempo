@@ -24,7 +24,7 @@
     <div class="container">
         <header>
             <div class="flex">
-                <div class="pesquisa contorno">
+                <div class="pesquisa contorno sombra">
                     <div class="icon"><i class="bi bi-search"></i></div>
                     <input type="text" name="search" id="searchid" placeholder="Busque sua cidade" autocomplete="off">
                 </div>
@@ -36,7 +36,7 @@
         <main>
             <div class="app">
                 <div class="flex">
-                    <div class="clima contorno clima-view">
+                    <div class="clima contorno sombra clima-view">
                         <div class="txt-clima">
                             <div class="icon-cidade">
                                 <i class="bi bi-geo-alt-fill"></i>
@@ -51,8 +51,8 @@
                         </div>
                         <div class="clima1">
                             <div class="btn-temp">
-                                <button class="btn-sel">F</button>
-                                <button class="btn-sel">C</button>
+                                <button class="btn-sel" id="fahid">°F</button>
+                                <button class="btn-sel active" id="celid">°C</button>
                             </div>
                             <div class="icon-temp">
                                 <i class="bi bi-cloud-sun"></i>
@@ -63,12 +63,67 @@
                             </div>
                         </div>
                     </div>
-                    <div class="clima contorno">
+                    <div class="clima contorno sombra clima-horas">
+                        <div class="semana">
+                            <div class="d-txt">
+                                <h3>Hoje / Semana</h3>
+                            </div>
+                            <div class="dias-semana">
+                                <div class="sessao-semana">
+                                    <h3>Dom.</h3>
+                                    <p>33°</p>
+                                </div>
+                                <div class="sessao-semana">
+                                    <h3>Seg.</h3>
+                                    <p>31°</p>
+                                </div>
+                                <div class="sessao-semana">
+                                    <h3>Ter.</h3>
+                                    <p>27°</p>
+                                </div>
+                                <div class="sessao-semana">
+                                    <h3>Qua.</h3>
+                                    <p>23°</p>
+                                </div>
+                                <div class="sessao-semana">
+                                    <h3>Qui.</h3>
+                                    <p>22°</p>
+                                </div>
+                                <div class="sessao-semana">
+                                    <h3>Sex.</h3>
+                                    <p>29°</p>
+                                </div>
+                                <div class="sessao-semana">
+                                    <h3>Sáb.</h3>
+                                    <p>34°</p>
+                                </div>
+                                <div class="sessao-semana">
+                                    <h3>Dom.</h3>
+                                    <p>30°</p>
+                                </div>
+                            </div>
+                            <div class="clima-amanha">
 
+                            </div>
+                        </div>
+                        <div class="horarios">
+                            <div class="hour sol">
+                                <p>Nascer do sol</p>
+                                <h3>06:45</h3>
+                            </div>
+                            <div class="hour sol">
+                                <p>Pôr do sol</p>
+                                <h3>17:09</h3>
+                            </div>
+                            <div class="hour duracao">
+                                <p>Duração do dia</p>
+                                <h3>10h 23m</h3>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="flex">
-                    <div class="destaques contorno">
+                    <div class="destaques contorno sombra">
 
                     </div>
                     <div class="outros">
@@ -77,16 +132,16 @@
                             <button>Mostrar tudo</button>
                         </div>
                         <div class="cidades">
-                            <div class="cidade contorno">
+                            <div class="cidade contorno sombra">
 
                             </div>
-                            <div class="cidade contorno">
+                            <div class="cidade contorno sombra">
 
                             </div>
-                            <div class="cidade contorno">
+                            <div class="cidade contorno sombra">
 
                             </div>
-                            <div class="cidade contorno">
+                            <div class="cidade contorno sombra">
                                 
                             </div>
                         </div>
