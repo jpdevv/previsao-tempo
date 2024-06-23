@@ -4,6 +4,7 @@
     --textos: #fff;
     --bordas: #ffffff07;
     --corDestaque: #D8E9F9;
+    --corDestaque2: #2d748b;
     --corEscura: #000;
     --fundoBoxesClaro: #2F2F2F;
     --fundoBoxClaroA: #2f2f2f5e;
@@ -293,5 +294,60 @@
     margin-top: 10px;
     margin-left: 16px;
     margin-bottom: 9px;
+}
+
+.a-boxs h1 {
+    font-size: 12px;
+}
+
+.txt-h {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 0 15px;
+}
+
+.txt-h h1 {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0 0 0 4px;
+}
+
+.txt-h i {
+    font-size: 12px;
+}
+
+.icon-h i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    text-shadow: 10px 0 20px var(--sombraClimaAmanha);
+    margin: 8px 0;
+}
+
+.status-h {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 45px;
+}
+
+.status-h h3 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.status-h span {
+    font-weight: 100;
+}
+
+.status-txt h3 {
+    color: var(--corDestaque2);
+    font-weight: 700;
+}
+
+.status-txt p {
+    font-size: 10px;
+    font-weight: 300;
 }
 
