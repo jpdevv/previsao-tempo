@@ -1,6 +1,11 @@
 :root {
     --FundoBoxs: #1E1E1E;
     --FundoBody: #111015;
+    --textos: #fff;
+    --bordas: #ffffff0a;
+    --corDestaque: #D8E9F9;
+    --corEscura: #000;
+    --fundoBoxesClaro: #2F2F2F;
     --fonte: "Montserrat", sans-serif;
 }
 
@@ -8,7 +13,7 @@
     padding: 0;
     margin: 0;
     font-family: var(--fonte);
-    color: white;
+    color: var(--textos);
 }
 
 .pesquisa {
@@ -32,3 +37,97 @@
     font-size: 17px;
 }
 
+/* Textos */
+.txts button {
+    background-color: var(--FundoBoxs);
+    border: none;
+    border-radius: 20px;
+    width: 110px;
+    height: 30px;
+    font-size: 13px;
+    cursor: pointer;
+    border: var(--bordas) solid 1px;
+    transition: .2s;
+}
+
+.txts button:hover {
+    transform: scale(1.05);
+}
+
+/* Clima */
+.txt-clima {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 15px 35px;
+}
+
+.icon-cidade p, .icon-cidade i {
+    color: var(--corEscura);
+    font-weight: 600;
+}
+
+.icon-cidade {
+    display: flex;
+    background-color: var(--corDestaque);
+    width: 110px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    border-radius: 15px;
+    gap: 5px;
+}
+
+.txt-clim h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.txt-clim p {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.txt-clim h1 {
+    font-size: 53px;
+    font-weight: 500;
+    margin-top: 31px;
+}
+
+.clima-view {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.clima1 {
+    text-align: end;
+    align-self: center;
+    padding: 10px 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.icon-temp i {
+    font-size: 105px;
+}
+
+.txt-temp h1 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.txt-temp p {
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.btn-sel {
+    background-color: var(--fundoBoxesClaro);
+    border: none;
+    outline: none;
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+}

@@ -2,7 +2,6 @@
 
 body {
     background-color: var(--FundoBody);
-    background-attachment: fixed;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -38,16 +37,16 @@ body {
 /* Clima */
 .clima {
     background-color: var(--FundoBoxs);
-    width: 640px;
-    height: 315px;
+    width: 600px;
+    height: 290px;
     border-radius: 20px;
 }
 
 /* Destaques */
 .destaques {
     background-color: var(--FundoBoxs);
-    width: 560px;
-    height: 340px;
+    width: 500px;
+    height: 320px;
     border-radius: 20px;
 }
 
@@ -55,8 +54,6 @@ body {
 .outros {
     display: flex;
     flex-direction: column;
-    width: 560px;
-    height: 285px;
     gap: 10px;
 }
 
@@ -64,13 +61,14 @@ body {
 .txts {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 /* Cidades */
 .cidades {
     display: grid;
-    grid-template-rows: 127px 127px;
-    grid-template-columns: 275px 275px;
+    grid-template-rows: 104px 104px;
+    grid-template-columns: 245px 245px;
     gap: 10px;
 }
 
@@ -78,6 +76,10 @@ body {
 .cidade {
     background-color: var(--FundoBoxs);
     border-radius: 20px;
+}
+
+.contorno {
+    border: var(--bordas) solid 1px;
 }
 
 @media screen and (max-width: 1070px) {
